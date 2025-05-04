@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    /* Adjust as needed */
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item.active {
+    transform: translateX(0);
+    transition: transform 0.5s ease-out;
+}
+
+.external-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    /* Increased from 40px */
+    height: 60px;
+    /* Increased from 40px */
+    margin: 0 auto;
+    padding: 12px;
+    /* Increased from 10px */
+    border-radius: 50%;
+    /* Rounded square */
+}
+
+.external-link .fab.fa-whatsapp {
+    font-size: 24px;
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#features {
+    background-image: url('https://static.wixstatic.com/media/8001b0_2f6edbc43fe74f2f8c339f4b2247a507~mv2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+}
